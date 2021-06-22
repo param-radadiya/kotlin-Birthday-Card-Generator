@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/new_bg">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="“May you be gifted with life’s biggest joys and never-ending bliss. After all, you yourself are a gift to earth, so you deserve the best.”"
+        android:textSize="20dp"
+        android:textColor="@color/purple_200"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birhtday!!!"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/Receiver_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name Here"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginLeft="140dp"
+        android:textColor="#FF9090"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Best Wishes From,"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Sender_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name Here"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginRight="120dp"
+        android:layout_marginLeft="70dp"
+        android:textColor="#689F38"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
